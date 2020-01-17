@@ -19,14 +19,14 @@ var spinJerseys = true;  // true or false
 // Add your own imgur album links here inside quotes with commas between quoted album links
 // For example: var customAlbums = ["http://imgur.com/a/0zBNw", "http://imgur.com/a/1abcD"]; (do not include comma if only 1 album)
 // Images should have titles that match team names and a single digit numerical description that matches team color (0 for either/both, 1 for red, 2 for blue)
-var Albums = ["https://imgur.com/a/tE24G", "https://imgur.com/a/fSicG", "https://imgur.com/a/yIgYZ", "https://imgur.com/a/rX0GE", "https://imgur.com/a/ndsKa", "https://imgur.com/a/V9xXX", "https://imgur.com/a/AAFfC", "https://imgur.com/a/CyZtM", "https://imgur.com/a/km3NJ", "https://imgur.com/a/8YPj6", "https://imgur.com/a/UBYNrIr", "https://imgur.com/a/l88Irrl"];
+var Albums = ["https://imgur.com/a/yxbBxVl"];
 
 // Add your own imgur image links here inside quotes with commas between quoted image links, it must links to the png file
 // For example: var customImages = ["http://i.imgur.com/17aAwABc.png", "http://i.imgur.com/abc123DEF.png"]; (do not include comma if only 1 image)
 // Images should have titles that match team names and a single digit numerical description that matches team color (0 for either/both, 1 for red, 2 for blue)
 // var Images = [];  // not implemented atm
 
-var client_id = 'YOUR_CLIENT_ID';  // don't steal my client-id. get your own very quickly from here: https://api.imgur.com/oauth2/addclient
+var client_id = 'e491cbdb6f9271a';  // don't steal my client-id. get your own very quickly from here: https://api.imgur.com/oauth2/addclient
 
 var default_data = {stored: true, active: true, isPrivate: false, lastRedTeam: false, lastRedTeamName: 'Red', lastBlueTeam: false, lastBlueTeamName: 'Blue', leagues: [], showLeagues: [], known_teams: {}};  // default data
 
